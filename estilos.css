@@ -1,0 +1,307 @@
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+.header{
+	/*position: relative;*/
+	height: 200px;
+
+}
+
+.logo-principal{
+	position: relative;
+	right: 110px;
+	bottom: 80px;
+	width: 320px;
+}
+
+.contenedor{
+	margin: auto;
+	width: 1000px;
+}
+
+.titulo{
+	font-size: 60px;
+	font-family: 'Noto Sans JP', sans-serif;
+	margin-bottom: 40px;
+	margin-top: 100px;
+
+}
+
+.resumen{
+	font-size: 24px;
+	font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.titulo1{
+	font-size: 40px;
+	margin-left: 30px;
+}
+
+.modelos{
+	font-size: 40px;
+}
+
+ol li{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.portada{
+	background-image: url("images/fondo4.jpg");
+	background-size: cover;
+	color: black;
+	padding: 20px;
+	height: 600px;
+}
+
+.portada-precios{
+	background-image: url("images/fondo4.jpg");
+	background-size: cover;
+	color: black;
+	padding: 20px;
+}
+
+.portada-nosotros{
+	background-image: url("images/fondo4.jpg");
+	background-size: cover;
+	color: black;
+	padding: 20px;
+}
+
+.lamparas{
+	color: #2C043A;
+}
+
+.menu{
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.menu li{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.menu a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+	display: inline-block;
+	margin: 0px;
+}
+
+.boton{
+	border-radius: 8px;
+	padding: 7px;
+	font-size: 15px;
+	background: linear-gradient(to bottom, #cb60b3 0%,#c146a1 50%,#a80077 51%,#db36a4 100%);
+/*	background: linear-gradient(to left, #B81541, #D83D67);
+*/	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+}
+
+.left{
+	float: left;
+}
+
+.left1{
+	float: left;
+	position: relative;
+	bottom: 30px;
+}
+
+.right{
+	float: right;
+	position: relative;
+	bottom: 30px;
+}
+
+.lamparas1{
+	border: 2px solid #2C043A;
+	margin: 40px;
+	padding: 10px;
+	width: 870px;
+	height: 300px;
+	border-radius: 5px;
+
+}
+
+article li{
+	margin: 10px;
+}
+
+.contenedor-left{
+	margin-left: 500px;
+	padding: 10px;
+
+}
+
+.contenedor-left1{
+	margin-left: 400px;
+}
+
+.contenedor-right{
+	margin-left: 50px ;
+
+}
+
+.footer{
+	background: #2C043A;
+}
+.logo-blanco{
+	display: block;
+	position: relative;
+	right: 100px;
+	bottom: 50px;
+	margin-bottom: 50px;
+
+}
+.contacto strong{
+	display: block;
+}
+
+.contacto a{
+	color: white;
+	text-decoration: none;
+}
+
+.footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacto{
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+	margin-left: 80px;
+}
+
+.tel{
+	position: relative;
+	bottom: 100px;
+	height: 50px;
+	right: 150px;
+	left: 70px;
+	margin: 10px;
+}
+
+.mail{
+	position: relative;
+	bottom: 100px;
+	right: 240px;
+	width: 100px;
+	margin: 10px;
+
+}
+
+.formulario{
+	display: flex;
+	width: 400px;
+}
+
+.datos, .comentarios{
+	display: flex;
+	flex-direction: column;
+}
+
+.datos{
+	padding: 15px;
+	position: relative;
+	right: 115px;
+	color: white;
+}
+
+.datos .nombre{
+	margin: 10px;
+	width: 200px;
+	font-size: 15px;
+}
+
+.nombre .label1{
+	margin-bottom: 20px;
+}
+
+.intereses label{
+	font-size: 15px;
+}
+
+.intereses{
+	margin: 10px;
+	width: 200px;
+}
+
+.sexo {
+	margin: 20px 20px 20px 0;
+	font-size: 15px;
+}
+
+.sexo label{
+	padding: 10px;
+}
+
+.comentarios{
+	padding: 15px;
+	position: relative;
+	right: 50px;
+	height: 200px;
+	align-items: flex-end;
+	color: white;
+}
+
+.enviar{
+	margin-top: 12px;
+	border-radius: 3px;
+	border: none;
+	padding: 3px 7px 3px 7px;
+	background: linear-gradient(to bottom, #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%);
+/*	background: linear-gradient(to left, #DCB700, #BFA213);*/	
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	cursor: pointer;
+	color: black;
+/*	background-image: linear-gradient(180deg, #e5d051 0, #bda700 50%, #958000 100%);*/
+}
+
+.copy{
+	position: relative;
+	right: 220px;
+}
+
+table{
+	width: 100%;
+	margin: 30px;
+}
+th{
+	background: #2C043A;
+	color: white;
+	text-align: left;
+}
+
+th td{
+	padding: 20px;
+}
+
+td{
+	font-family: 'Roboto', sans-serif;
+}
+
+tr td{
+	padding: 15px;
+}
+
+table, td, th{
+	border: 1px solid #2C043A;
+	border-collapse: collapse;
+}
+

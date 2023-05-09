@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Precios Christal</title>
+		<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="estilos.css">
+	</head>
+	<body>
+	<section id="portada" class="portada-precios"> <!-- portada -->
+		<header id="header" class="header contenedor"> <!-- header -->
+				<figure id="logo" class="logo"> <!-- logotipo -->
+					<img class="logo-principal" src="images/logo.png" width="200" alt="Christal Logo"/>
+				</figure>
+				<nav id="menu" class="menu"> <!-- menu -->
+					<ul>
+						<li>
+							<a href="index.html">Inicio</a>
+						</li>
+						<li>
+							<a href="index.html#lamparas">Lamparas</a>
+						</li>
+						<li>
+							<a href="precios.html">Precios</a>
+						</li>
+						<li>
+							<a href="nosotros.html">Nosotros</a>
+						</li>
+					</ul>
+				</nav>
+		</header>
+	</section>
+	<section class="tabla"> <!-- Tabla -->
+		<div class="contenedor">
+			<table>
+				<thead class="cabecera">
+					<tr>
+						<th>Modelos</th>
+						<th>Descripción</th>
+						<th>Precios</th>
+					</tr>
+				</thead>
+				<tbody class="cuerpo">
+					<tr>
+						<td>Cuarzos</td>
+						<td>Hechas de un solo trozo de sal.<br>
+						Ideales para purificar ambietes.<br>
+						Directas de los Himalayas</td>
+						<td>Desde $500 hasta $3000</td>
+					</tr>
+					<tr>
+						<td>Esculturas</td>
+						<td>Artesanias hechas a mano.<br>
+						Ideales para decorar tus espacios.<br>
+						Directas de los Himalayas</td>
+						<td>Desde $1500 hasta $6000</td>
+					</tr>
+					<tr>
+						<td>Cuencos</td>
+						<td>Hechas con pequeños trozos de sal.<br>
+						Ideales para centros de mesa.<br>
+						Directas de los Himalayas</td>
+						<td>Desde $200 hasta $1000</td>
+					</tr>
+				</tbody>
+				<tfoot class="pie"></tfoot>
+			</table>
+		</div>
+	</section>
+	<footer class="footer"> <!-- Footer -->
+		<div class="contenedor">
+			<div class="contacto"> <!-- contacto -->
+				<img class="logo-blanco" src="images/logo_blanco.png" width="250" alt="Logo Christal">
+				<a href="tel:+5493624225400" class="tel"><strong>Teléfono: </strong><span>3624225400</span></a>
+				<a href="mailto: contacto@christal.com" class="mail"><strong>E-mail: <span>contacto@christal.com</span></strong></a>
+				<a class="copy">Develloper By Christian Fernandez</a>
+			</div>
+			<form class="formulario"> <!-- formulario -->
+				<div class="datos">
+					<div class="nombre">
+				<label for="nombre" >Nombre y Apellido</label>
+					<input class="label1" type="text" required placeholder="Nombre y apellido" id="nombre" name="nombre" />
+				<label for="email">Correo Electronico</label>
+					<input type="E-mail" required placeholder="E-mail" id="email" name="email" />
+					</div>
+				<div class="sexo"> <!-- sexo -->
+					<label for="mujer">
+						<input type="radio" id="mujer" name="sexo" value="mujer" /> Mujer
+					</label>
+					<label for="hombre">
+						<input type="radio" id="hombre" name="sexo" value="hombre" /> Hombre
+					</label>
+					<label for="otros">
+						<input type="radio" id="otros" name="sexo" value="otros" /> Otros
+					</label>
+				</div>
+				<div class="intereses"> <!-- intereses -->
+					<label for="cotizacion">
+						<input type="checkbox" name="intereses" id="cotizacion" value="cotizacion"> Cotización
+					</label>
+					<label for="reclamos">
+						<input type="checkbox" name="intereses" id="reclamos" value="reclamos"> Reclamos
+					</label>
+					<label for="comentarios">
+						<input type="checkbox" name="intereses" id="comentarios" value="comentarios"> Comentarios
+					</label>
+					<label for="otro">
+						<input type="checkbox" name="intereses" id="otro" value="otro"> Otros
+					</label>
+				</div>
+				</div>
+				<div class="comentarios">
+					<label for="comentario">Comentario</label>
+					<textarea name="comentario" id="comentario" cols="30" rows="7"></textarea>
+					<input type="submit" value="Enviar" class="enviar"/>
+				</div>
+			</form>	
+		</div>
+	</footer>
+	</body>
+</html>
